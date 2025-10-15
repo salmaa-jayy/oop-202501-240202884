@@ -1,43 +1,66 @@
 # Laporan Praktikum Minggu 1 (sesuaikan minggu ke berapa?)
-Topik: [Tuliskan judul topik, misalnya "Class dan Object"]
+Topik: ["Paradigma Setup"]
 
 ## Identitas
-- Nama  : [Nama Mahasiswa]
-- NIM   : [NIM Mahasiswa]
-- Kelas : [Kelas]
+- Nama  : [Salma Zaidah]
+- NIM   : [240202884]
+- Kelas : [3 IKR B]
 
 ---
 
 ## Tujuan
-(Tuliskan tujuan praktikum minggu ini.  
-Contoh: *Mahasiswa memahami konsep class dan object serta dapat membuat class Produk dengan enkapsulasi.*)
+(Mahasiswa telah memahami konsep class dan object, serta mampu membuat class Produk dengan menerapkan prinsip enkapsulasi.)
 
 ---
 
 ## Dasar Teori
-(Tuliskan ringkasan teori singkat (3–5 poin) yang mendasari praktikum.  
-Contoh:  
-1. Class adalah blueprint dari objek.  
+( 
+1. Class merupakan cetak biru (blueprint) dari suatu objek, sedangkan object adalah instansiasi nyata dari class tersebut. 
 2. Object adalah instansiasi dari class.  
-3. Enkapsulasi digunakan untuk menyembunyikan data.)
+3. Procedural: menulis langkah-langkah secara berurutan (menggunakan fungsi atau prosedur).
+4. OOP: menggunakan class dan object untuk mengorganisasi kode.
+5. Functional: menggunakan fungsi lambda expression dan functional interface seperti BiConsumer untuk menulis kode yang lebih ringkas dan modular.
+6. Pemrograman OOP dan fungsional mendorong pembuatan kode yang terpisah ke dalam class atau fungsi agar mudah dibaca, dikelola, serta digunakan ulang (reusability). )
 
 ---
 
 ## Langkah Praktikum
-(Tuliskan Langkah-langkah dalam prakrikum, contoh:
-1. Langkah-langkah yang dilakukan (setup, coding, run).  
-2. File/kode yang dibuat.  
-3. Commit message yang digunakan.)
+(
+1. **Setup Project**
+   - Pastikan sudah menginstall **JDK** (Java Development Kit), **IDE** (misal: IntelliJ IDEA, VS Code, NetBeans), **Git**, **PostgreSQL**, dan **JavaFX** di komputer.
+   - Buat folder project `oop-pos-<nim>`.
+   - Inisialisasi repositori Git.
+   - Buat struktur awal `src/main/java/com/upb/agripos/`.
+   - Pastikan semua tools dapat berjalan (uji dengan membuat dan menjalankan program Java sederhana).
 
+2. **Program Sederhana dalam 3 Paradigma**
+   - Prosedural: program untuk menghitung total harga dua produk.
+   - OOP: class `Produk` dengan atribut nama dan harga, buat minimal tiga objek, lalu hitung total.  
+   - Fungsional: gunakan `Stream` atau lambda untuk menghitung total harga dari minimal tiga objek.  
+
+3. **Commit dan Push**
+   - Commit dengan pesan: `week1-setup-hello-pos`. )
 ---
 
 ## Kode Program
 (Tuliskan kode utama yang dibuat, contoh:  
 
 ```java
-// Contoh
-Produk p1 = new Produk("BNH-001", "Benih Padi", 25000, 100);
-System.out.println(p1.getNama());
+package main.java.com.upb.agripos;
+
+// HelloFunctional.java
+import java.util.function.BiConsumer;
+
+public class HelloFunctional {
+    public static void main(String[] args) {
+        BiConsumer<String, String> sapa =
+            (nama, nim) -> System.out.println("Hello World, I am " + nama + " - " + nim);
+        
+        sapa.accept("Salma", "240202884");
+    }
+}
+
+```;
 ```
 )
 ---
