@@ -14,18 +14,16 @@ Topik: ["Paradigma Setup"]
 ---
 
 ## Dasar Teori
-( 
 1. Class merupakan cetak biru (blueprint) dari suatu objek, sedangkan object adalah instansiasi nyata dari class tersebut. 
 2. Object adalah instansiasi dari class.  
 3. Procedural: menulis langkah-langkah secara berurutan (menggunakan fungsi atau prosedur).
 4. OOP: menggunakan class dan object untuk mengorganisasi kode.
 5. Functional: menggunakan fungsi lambda expression dan functional interface seperti BiConsumer untuk menulis kode yang lebih ringkas dan modular.
-6. Pemrograman OOP dan fungsional mendorong pembuatan kode yang terpisah ke dalam class atau fungsi agar mudah dibaca, dikelola, serta digunakan ulang (reusability). )
+6. Pemrograman OOP dan fungsional mendorong pembuatan kode yang terpisah ke dalam class atau fungsi agar mudah dibaca, dikelola, serta digunakan ulang (reusability). 
 
 ---
 
 ## Langkah Praktikum
-(
 1. **Setup Project**
    - Pastikan sudah menginstall **JDK** (Java Development Kit), **IDE** (misal: IntelliJ IDEA, VS Code, NetBeans), **Git**, **PostgreSQL**, dan **JavaFX** di komputer.
    - Buat folder project `oop-pos-<nim>`.
@@ -39,12 +37,10 @@ Topik: ["Paradigma Setup"]
    - Fungsional: gunakan `Stream` atau lambda untuk menghitung total harga dari minimal tiga objek.  
 
 3. **Commit dan Push**
-   - Commit dengan pesan: `week1-setup-hello-pos`. )
+   - Commit dengan pesan: `week1-setup-hello-pos`. 
 ---
 
 ## Kode Program
-(Tuliskan kode utama yang dibuat, contoh:  
-
 ```java
 package main.java.com.upb.agripos;
 
@@ -62,7 +58,7 @@ public class HelloFunctional {
 
 ```;
 ```
-)
+
 ---
 
 ## Hasil Eksekusi
