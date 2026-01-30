@@ -1,4 +1,4 @@
-package main.java.com.upb.agripos;
+package com.upb.agripos;
 
 import com.upb.agripos.config.DatabaseConnection;
 import com.upb.agripos.controller.ProductController;

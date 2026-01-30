@@ -1,7 +1,7 @@
-package main.java.com.upb.agripos.controller;
+package com.upb.agripos.controller;
 
-import main.java.com.upb.agripos.Product;
-import main.java.com.upb.agripos.view.ConsoleView;
+import com.upb.agripos.Product;
+import com.upb.agripos.view.ConsoleView;
 
 public class ProductController {
     private final Product model;

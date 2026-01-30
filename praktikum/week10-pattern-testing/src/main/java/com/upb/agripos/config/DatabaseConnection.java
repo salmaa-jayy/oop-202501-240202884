@@ -1,4 +1,4 @@
-package main.java.com.upb.agripos.config;
+package com.upb.agripos.config;
 
 public class DatabaseConnection {
 
